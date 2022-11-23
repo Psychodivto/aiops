@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: {model_name}-container
-        #image: gcr.io/tensorflow-serving/resnet    
+        #image: gcr.io/tensorflow-serving/resnet      
         image: docker.io/{psychodivto}/tensorflow_{linear-model}:{github.sha}
         ports:
         - containerPort: 8501
