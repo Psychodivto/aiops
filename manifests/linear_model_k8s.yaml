@@ -9,7 +9,7 @@ spec:
       app: {model_name}-server
   replicas: 3
   template:
-    metadata:
+    metadata: 
       labels:
         app: {model_name}-server
     spec:
